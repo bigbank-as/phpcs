@@ -1,0 +1,7 @@
+*~
+.bak
+.idea/
+vendor/*
+*.lock
+*.DS_Store
+atlassian-ide-plugin.xml

@@ -1,6 +1,6 @@
 # PHP Code Sniffer
 
-PHP_CodeSniffer is a PHP5 script that tokenises PHP, JavaScript and CSS files to detect violations of a defined coding standard. It is an essential development tool that ensures your code remains clean and consistent. It can also help prevent some common semantic errors made by developers.
+PHP_CodeSniffer is a PHP5 script that tokenises PHP files to detect violations of a defined coding standard. It is an essential development tool that ensures your code remains clean and consistent. It can also help prevent some common semantic errors made by developers.
 
 This is a custom phpcs standard for BIGBANK. The primary use case is in tandem with PhpStorm as an automated inspection.
 
@@ -53,6 +53,10 @@ You can manually mark parts of the code as ignored by phpcs with annotations.
 * `@codingStandardsIgnoreStart`
 * `@codingStandardsIgnoreEnd`
 * `@codingStandardsIgnoreFile` - marks the entire file as ignored
+
+## Fixing Errors Automatically
+
+It is possible to fix some errors (for example, no empty line at the end of the file) automatically, in bulk (for dozens of files). For more, read [Fixing Errors Automatically](https://github.com/squizlabs/PHP_CodeSniffer/wiki/Fixing-Errors-Automatically).
 
 # Links
 

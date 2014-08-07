@@ -1,5 +1,5 @@
 {
-    "name": "bigbank/phpcs",
+    "name": "BB/phpcs",
     "description": "BIGBANK rules for phpcs",
     "version": "0.1.0",
 

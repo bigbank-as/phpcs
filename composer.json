@@ -1,9 +1,28 @@
 {
     "name": "BB/phpcs",
     "description": "BIGBANK rules for phpcs",
-    "version": "1.0.1",
+    "version": "1.0.2",
 
     "require": {
         "squizlabs/php_codesniffer": "2.0.0a2"
-    }
+    },
+    "homepage": "https://gitlab.big.local/bigbank/phpcs",
+    "keywords": [
+        "BB",
+        "static analysis",
+        "tool",
+        "standards"
+    ],
+    "support": {
+        "source": "https://gitlab.big.local/bigbank/phpcs/tree/master"
+    },
+    "licence": "Bigbank",
+    "authors": [
+        {
+            "name": "Ando Roots",
+            "email": "ando.roots@bigbank.ee",
+            "homepage": "http://about.me/andoroots",
+            "role": "Developer"
+        }
+    ]
 }

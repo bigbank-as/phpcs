@@ -1,10 +1,10 @@
 {
     "name": "BB/phpcs",
     "description": "BIGBANK rules for phpcs",
-    "version": "1.0.2",
+    "version": "1.0.3",
 
     "require": {
-        "squizlabs/php_codesniffer": "2.0.0a2"
+        "squizlabs/php_codesniffer": "2.0.0RC1"
     },
     "homepage": "https://gitlab.big.local/bigbank/phpcs",
     "keywords": [

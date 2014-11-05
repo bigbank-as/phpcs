@@ -4,7 +4,7 @@
     "version": "1.0.3",
 
     "require": {
-        "squizlabs/php_codesniffer": "2.0.0RC1"
+        "squizlabs/php_codesniffer": "2.0.0RC3"
     },
     "homepage": "https://gitlab.big.local/bigbank/phpcs",
     "keywords": [

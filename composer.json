@@ -1,12 +1,11 @@
 {
     "name": "BB/phpcs",
     "description": "BIGBANK rules for phpcs",
-    "version": "1.0.3",
 
     "require": {
         "squizlabs/php_codesniffer": "2.0.0RC3"
     },
-    "homepage": "https://gitlab.big.local/bigbank/phpcs",
+    "homepage": "https://gitlab.big.local/engineering-toolset/phpcs",
     "keywords": [
         "BB",
         "static analysis",
@@ -14,7 +13,7 @@
         "standards"
     ],
     "support": {
-        "source": "https://gitlab.big.local/bigbank/phpcs/tree/master"
+        "source": "https://gitlab.big.local/engineering-toolset/phpcs/tree/master"
     },
     "licence": "Bigbank",
     "authors": [

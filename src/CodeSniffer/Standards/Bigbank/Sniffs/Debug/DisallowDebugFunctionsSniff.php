@@ -19,7 +19,7 @@ class Bigbank_Sniffs_Debug_DisallowDebugFunctionsSniff extends Generic_Sniffs_PH
      *
      * @var array(string => string|null)
      */
-    protected $forbiddenFunctions = array(
+    public $forbiddenFunctions = array(
         'print_r'  => null,
         'var_dump' => null,
     );

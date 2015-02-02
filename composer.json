@@ -1,13 +1,13 @@
 {
-    "name": "BB/phpcs",
+    "name": "bigbank/phpcs",
     "description": "BIGBANK rules for phpcs",
 
     "require": {
-        "squizlabs/php_codesniffer": "2.0.0RC3"
+        "squizlabs/php_codesniffer": "~2.2"
     },
     "homepage": "https://gitlab.big.local/engineering-toolset/phpcs",
     "keywords": [
-        "BB",
+        "Bigbank",
         "static analysis",
         "tool",
         "standards"
@@ -15,7 +15,7 @@
     "support": {
         "source": "https://gitlab.big.local/engineering-toolset/phpcs/tree/master"
     },
-    "licence": "Bigbank",
+    "licence": "proprietary",
     "authors": [
         {
             "name": "Ando Roots",
@@ -23,5 +23,21 @@
             "homepage": "http://about.me/andoroots",
             "role": "Developer"
         }
-    ]
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://composer-cache.big.local"
+        },
+        {
+            "type": "composer",
+            "url": "https://packages.big.local"
+        }
+    ],
+    "config": {
+        "preferred-install" : "dist",
+        "github-oauth": {
+            "github.com": "69bb422f256b719fbffe216bc01e14e3354df6c3"
+        }
+    }
 }

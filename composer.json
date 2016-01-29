@@ -1,31 +1,19 @@
 {
     "name": "bigbank/phpcs",
     "description": "Bigbank rules for phpcs",
-
     "require": {
-        "squizlabs/php_codesniffer": "~2"
+        "squizlabs/php_codesniffer": "~2",
+        "php": ">=5.6"
     },
-    "homepage": "https://stash.big.local/projects/TOOL/repos/php-code-sniffer/browse",
     "keywords": [
         "Bigbank",
         "static analysis",
-        "tool",
         "standards",
-        "phpcs"
+        "phpcs",
+        "code style"
     ],
-    "licence": "proprietary",
-    "authors": [
-        {
-            "name": "Ando Roots",
-            "email": "ando.roots@bigbank.ee",
-            "homepage": "http://about.me/andoroots",
-            "role": "Developer"
-        }
-    ],
+    "licence": "Apache-2.0",
     "config": {
-        "preferred-install" : "dist",
-        "github-oauth": {
-            "github.com": "69bb422f256b719fbffe216bc01e14e3354df6c3"
-        }
+        "preferred-install" : "dist"
     }
 }

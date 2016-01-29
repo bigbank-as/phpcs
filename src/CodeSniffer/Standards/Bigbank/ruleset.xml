@@ -1,9 +1,7 @@
 <?xml version="1.0"?>
-<!-- A custom code standard / code sniffer ruleset for phpcs -->
-<!-- API-187, API-546 -->
-<ruleset name="BIGBANK">
+<ruleset name="Bigbank">
 
-    <description>A custom coding standard for BIGBANK projects</description>
+    <description>A custom coding standard for Bigbank projects</description>
 
     <exclude-pattern type="relative">^/vendor/*</exclude-pattern>
 

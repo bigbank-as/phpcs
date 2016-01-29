@@ -1,6 +1,7 @@
 {
     "name": "bigbank/phpcs",
     "description": "Bigbank rules for phpcs",
+    "homepage": "https://github.com/bigbank-as/phpcs",
     "require": {
         "squizlabs/php_codesniffer": "~2",
         "php": ">=5.6"
@@ -12,7 +13,7 @@
         "phpcs",
         "code style"
     ],
-    "licence": "Apache-2.0",
+    "license": "Apache-2.0",
     "config": {
         "preferred-install" : "dist"
     }

@@ -1,8 +1,12 @@
 # Custom Rule Set For PHP_CodeSniffer
 
-[PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) is a PHP script that tokenizes PHP files to detect violations of a defined coding standard. It is an essential development tool that ensures your code remains clean and consistent. It can also help prevent some common semantic errors made by developers.
+[![Latest Stable Version on Packagist][ico-version]][link-packagist]
+[![Software License][ico-license]](LICENSE.md)
+[![Total Downloads][ico-downloads]][link-downloads]
 
-This is a custom PHP_CodeSniffer standard for [Bigbank](https://bigbank.eu), based on and compatible with [PSR-2](http://www.php-fig.org/psr/psr-2).
+[PHP_CodeSniffer][link-phpcs] is a PHP script that tokenizes PHP files to detect violations of a defined coding standard. It is an essential development tool that ensures your code remains clean and consistent. It can also help prevent some common semantic errors made by developers.
+
+This is a custom PHP_CodeSniffer standard for [Bigbank][link-bigbank], based on and compatible with [PSR-2][link-psr2].
 
 ## Installing
 
@@ -43,9 +47,9 @@ You can manually mark parts of the code as ignored by phpcs with annotations.
 
 ## Fixing Errors Automatically
 
-It is possible to fix some errors (for example, no empty line at the end of the file) automatically, in bulk (for dozens of files). For more, read [Fixing Errors Automatically](https://github.com/squizlabs/PHP_CodeSniffer/wiki/Fixing-Errors-Automatically).
+It is possible to fix some errors (for example, no empty line at the end of the file) automatically, in bulk (for dozens of files). For more, read [Fixing Errors Automatically][link-autofix].
 
-# Links
+## Links
 
 * [PHP Code Sniffer Documentation](https://github.com/squizlabs/PHP_CodeSniffer/wiki)
 * [PhpStorm: Using PHP Code Sniffer Tool](http://www.jetbrains.com/phpstorm/webhelp/using-php-code-sniffer-tool.html)
@@ -56,5 +60,17 @@ Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recen
 
 ## License
 
-PHP_CodeSniffer is developed and owned by [Squiz Labs](http://www.squizlabs.com).
+PHP_CodeSniffer is developed and owned by [Squiz Labs][link-phpcs].
 This custom standard is licensed under the Apache 2.0 License (Apache-2.0). Please see [License File](LICENSE.md) for more information.
+
+[link-bigbank]: https://bigbank.eu
+[link-psr2]: http://www.php-fig.org/psr/psr-2
+[link-phpcs]: https://github.com/squizlabs/PHP_CodeSniffer
+[link-autofix]: https://github.com/squizlabs/PHP_CodeSniffer/wiki/Fixing-Errors-Automatically
+
+[ico-version]: https://poser.pugx.org/bigbank/phpcs/v/stable
+[ico-license]: https://poser.pugx.org/bigbank/phpcs/license
+[ico-downloads]: https://poser.pugx.org/bigbank/phpcs/downloads
+
+[link-packagist]: https://packagist.org/packages/bigbank/phpcs
+[link-downloads]: https://packagist.org/packages/bigbank/phpcs

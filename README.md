@@ -2,7 +2,7 @@
 
 [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) is a PHP script that tokenizes PHP files to detect violations of a defined coding standard. It is an essential development tool that ensures your code remains clean and consistent. It can also help prevent some common semantic errors made by developers.
 
-This is a custom PHP_CodeSniffer standard for Bigbank, based on and compatible with [PSR-2](http://www.php-fig.org/psr/psr-2).
+This is a custom PHP_CodeSniffer standard for [Bigbank](https://bigbank.eu), based on and compatible with [PSR-2](http://www.php-fig.org/psr/psr-2).
 
 ## Installing
 
